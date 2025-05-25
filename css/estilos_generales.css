@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*estilos repetidos en toda la pagina*/
+body{
+    background-color: #f2e6c276;
+    .h2{
+        font-family: "Cormorant Infant", serif;
+    }
+    .h3{
+        font-family: "Cormorant Infant", serif;
+    }
+    .parrafo{
+        font-family: "Montserrat", sans-serif;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .spanParrafo{
+        font-weight: bold;
+        color: #D97971;
+    }
+
+    /*estilos del header todas las paginas*/
+  header{
+    /*estilo de la barra de navegacion*/
+        .barraDeNavegacion{
+            background-color: #8C0303;
+            display: flex;
+            justify-content:start;
+            align-items:center;
+            .divLogo{
+                padding-left: 20px;
+                margin-right: 50px;
+                .imgLogo{
+                    width: 90px;
+                    height: 90px;
+                }
+            }
+        /*estilos de la lista de navegacion*/
+        .listaNav{
+                .listaNavUl{
+                    display: flex;
+                    list-style-type:none;
+                    margin-left: 450px;
+                    .listaNavli{
+                        margin: 10px;
+                        .listaNavA{
+                            font-family: "Montserrat", sans-serif;
+                            text-decoration: none;
+                            color: #F2E6C2;
+                            &:hover{
+                               color: #a39f93;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+     /*footer de todas las paginas*/
+     footer{
+        background-color: #f2c1ae41;
+        .parrafoFooter{
+            font-family: "Montserrat", sans-serif;
+            text-align: center;
+            padding: 20px;
+            margin: 0px;
+        }
+    }
+}

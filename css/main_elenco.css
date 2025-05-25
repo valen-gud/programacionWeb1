@@ -1,0 +1,65 @@
+/*estilos del main de pagina elenco y personajes*/
+.mainElenco{
+    /*seccion titulo h1 elenco y personajes*/
+    .seccionTituloH1{
+        height: 600px;
+        background: linear-gradient(rgba(41, 41, 42, 0.573), rgba(40, 40, 41, 0.684)), url(../assets/img/elenco1.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        overflow: hidden;
+        /*estilos titulo h1 elenco*/
+        .h1{
+        padding-top: 430px;
+        padding-left: 430px;
+        font-size: 5.5rem;
+        font-family: "Cormorant", serif;
+        color: #F2E6C2;
+        }
+    }   
+    /*seccion titulo h2 elenco*/
+    .seccionTituloH2{
+        /*estilos del titulo h2 elenco*/
+        .h2{
+            margin-top: 70px;
+            margin-bottom: 50px;
+            text-align: center;
+            color: #730202;
+            font-size: 3.5rem;
+        }
+
+        .divPersonajes{
+            background-color: #f2c1ae41;
+            border-radius: 50px;
+            box-shadow: 10px 10px 10px #b6b6b678;
+            margin: 50px;
+            padding: 20px;
+            
+            .h3{
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                color: #730202;
+                font-size: 2rem;
+            }
+            .divParrafoPersonajes{
+                display: flex;
+                .parrafoPersonajes{
+                    padding-top: 100px;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                }
+                /*estilo de img emily*/
+                .imgPersonajes{
+                    width: 500px;
+                    height: 300px;
+                    margin-top: 20px;
+                    margin-left: 100px;
+                    margin-right: 100px;
+                    margin-bottom: 20px;
+                    border-radius: 20px;
+                    box-shadow: 2px 2px 7px #b6b6b678;
+                }
+            }
+        }
+    }     
+}

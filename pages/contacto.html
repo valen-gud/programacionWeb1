@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link rel="shortcut icon" href="../favicon.ico.jpg">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Trykker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/estilos_generales.css">
+        <link rel="stylesheet" href="../css/main_contacto.css">
+    </head>
+    <body>
+        <header>
+            <nav class="barraDeNavegacion">
+                <div class="divLogo">
+                    <a href="../index.html">
+                        <img class="imgLogo" src="../assets/img/logoEmily.jpg" alt="logoEmilyInParis">
+                    </a>
+                </div>
+                <div class="listaNav">
+                    <ul class="listaNavUl">
+                        <li class="listaNavli"><a class="listaNavA" href="../index.html">Inicio</a></li>
+                        <li class="listaNavli"><a class="listaNavA" href="../index.html#sobreLaSerie">Sobre la serie</a></li>
+                        <li class="listaNavli"><a class="listaNavA" href="../pages/elencoYpersonajes.html">Elenco y personajes</a></li>
+                        <li class="listaNavli"><a class="listaNavA" href="../pages/temporadasYepisodios.html">Temporadas y episodios</a></li>
+                        <li class="listaNavli"><a class="listaNavA" href="../pages/eventosYcuriosidades.html">Eventos y curiosidades</a></li>
+                        <li class="listaNavli"><a class="listaNavA" href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="mainContacto">
+            <section class="seccionTituloH1">
+                <h1 class="h1">¡Bonjour! Escribinos</h1>
+            </section>
+            <section class="seccionContacto">
+                <div>
+                    <h2 class="h2">¡Dejanos tu mensaje y seguí conectada con el mundo de Emily!</h2>
+                    <form class="formularioContacto" action="404.html" method="get">
+                        <label class="etiqueta" for="nombre">Nombre</label><br>
+                        <input class="relleno" type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido" required><br>
+                        <label class="etiqueta" for="email">Email</label><br>
+                        <input class="relleno" type="email" placeholder="ejemplo@ejemplo.com" required id="email" name="email"><br>
+                        <label class="etiqueta" for="telefono">Teléfono</label><br>
+                        <input class="relleno" type="tel" id="telefono" name="telefono" required><br>
+                        <label class="etiqueta" for="mensaje">Mensaje</label><br>
+                        <textarea class="relleno" id="mensaje" name="mensaje" placeholder="Bonjour..." required></textarea><br> 
+                        <div>
+                            <input class="boton" type="reset" value="Borrar">
+                        </div>
+                        <div>
+                            <input class="boton" type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </section>                    
+        </main>
+
+        <footer>
+            <p class="parrafoFooter"> Página creada por: Valentina Gudiño.</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+/*estilos del main eventos y curiosidades*/
+.mainEventos{
+    /*estilos de los parrafos que necesitan espacio entre ellos*/
+    .parrafoInfo{
+        font-family: "Montserrat", sans-serif;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 15px 15px;
+    }
+    /*seccion titulo h1 eventos y curiosidades*/
+    .seccionTituloH1{
+        height: 600px;
+        background: linear-gradient(rgba(41, 41, 42, 0.569), rgba(40, 40, 41, 0.694)), url(../assets/img/eventos2.webp);
+        background-attachment: fixed;
+        background-size: 100%;
+        overflow: hidden;
+        /*estilos titulo h1 eventos y curiosidades*/
+        .h1{
+        padding-top: 450px;
+        padding-left: 350px;
+        font-size: 5.5rem;
+        font-family: "Cormorant", serif;
+        color: #F2E6C2;
+        }
+    }   
+    /*seccion titulo h2 eventos y curiosidades*/
+    .seccionTituloH2{
+        background-color: #f2c1ae41;
+        border-radius: 50px;
+        box-shadow: 10px 10px 10px #b6b6b678;
+        margin: 50px;
+        padding: 20px;
+        /*estilos del titulo h2 eventos y curiosidades*/
+        .h2{
+            margin-top: 70px;
+            margin-bottom: 50px;
+            text-align: center;
+            color: #730202;
+            font-size: 3.5rem;
+        }
+        .h3{
+            margin-left: 20px;
+            margin-bottom: 20px;
+            color: #730202;
+            font-size: 2rem;
+        }
+        /*estilo de eventos especiales*/
+        .divEventosEspeciales{
+            .linkEventoCouture{
+                .posterEventoCouture{
+                    width: 600px;
+                    height: 400px;
+                    margin-top: 70px;
+                    margin-left: 380px;
+                    margin-bottom: 90px;
+                    border-radius: 20px;
+                    box-shadow: 10px 10px 10px #b6b6b678;
+                }
+            } 
+        }
+        .divEventosEspeciales2{
+            margin-top: 80px;
+            .videoEventoPaleyFest{
+                width: 600px;
+                height: 400px;
+                margin-top: 70px;
+                margin-left: 380px;
+                margin-bottom: 90px;
+                border-radius: 20px;
+                box-shadow: 10px 10px 10px #b6b6b678;
+            }
+        }
+        .divCuriosidades{
+            display: flex;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            .imgCuriosidades{
+                margin: 20px;
+                width: 400px;
+                height: 300px;
+            }
+        }
+        .parrafoInfo{
+            font-family: "Montserrat", sans-serif;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin: 15px 15px;
+        }
+    }     
+}

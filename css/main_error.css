@@ -1,0 +1,30 @@
+/*estilos del main Error*/
+.mainError{
+    .seccionError{
+        background-color: #f2c1ae41;
+        border-radius: 500px;
+        box-shadow: 10px 10px 10px #b6b6b678;
+        margin: 50px;
+        padding: 20px;
+        .h1{
+            margin-top: 30px;
+            text-align: center;
+            font-size: 3rem;
+            font-family: "Cormorant", serif;
+            color: #730202;
+        }
+        .h2{
+            text-align: center;
+            font-size: 2rem;
+        }
+        .imgError{
+            width: 500px;
+            height: 400px;
+            margin-top: 70px;
+            margin-left: 440px;
+            margin-bottom: 90px;
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px #b6b6b678;
+        }
+    }
+}

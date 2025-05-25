@@ -1,0 +1,61 @@
+ /*estilos del main contacto*/
+ .mainContacto{
+    /*seccion titulo h1 contacto*/
+    .seccionTituloH1{
+        height: 600px;
+        background: linear-gradient(rgba(41, 41, 42, 0.565), rgba(40, 40, 41, 0.63)), url(../assets/img/contacto1.jpg); 
+        background-attachment: fixed;
+        background-size: 100%;
+        overflow: hidden;
+        /*estilos titulo h1 contacto*/
+        .h1{
+        padding-top: 430px;
+        padding-left: 370px;
+        font-size: 5.5rem;
+        font-family: "Cormorant", serif;
+        color: #F2E6C2;
+        }
+    }  
+    .seccionContacto{
+        background-color: #f2c1ae41;
+        border-radius: 50px;
+        box-shadow: 10px 10px 10px #b6b6b678;
+        margin: 50px;
+        padding: 20px;
+        /*estilos del titulo h2 contacto*/
+        .h2{
+            margin-top: 70px;
+            margin-bottom: 50px;
+            text-align: center;
+            color: #730202;
+            font-size: 3.5rem;
+        }
+        .etiqueta{
+            margin-left: 630px;
+            margin-bottom: 20px;
+            color: #730202;
+            font-size: 2rem;
+        }
+        .relleno{
+            margin-top: 5px;
+            margin-left: 380px;
+            margin-bottom: 20px;
+            width: 600px;
+            height: 50px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px #b6b6b678;
+        }
+        .boton{
+            margin-top: 5px;
+            margin-left: 580px;
+            margin-bottom: 20px;
+            width: 200px;
+            height: 50px;
+            border-radius: 50px;
+            box-shadow: 10px 10px 10px #b6b6b678;
+            &:hover{
+                color: #a39f93;
+            }
+        }
+    } 
+}

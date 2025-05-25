@@ -1,0 +1,89 @@
+/*estilos del main inicio y sobre la serie*/
+.mainIndex{
+    /*seccion titulo h1 index*/
+    .seccionTituloH1{
+        height: 600px;
+        background: linear-gradient(rgba(41, 41, 42, 0.569), rgba(40, 40, 41, 0.384)), url(../assets/img/fondo1.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        overflow: hidden;
+        /*estilos titulo h1 index*/
+        .h1{
+        padding-top: 150px;
+        padding-left: 980px;
+        font-size: 5.5rem;
+        font-family: "Cormorant", serif;
+        color: #F2E6C2;
+        }
+    }   
+    /*seccion titulo h2 index*/
+    .seccionTituloH2{
+        background-color: #f2c1ae41;
+        border-radius: 50px;
+        box-shadow: 10px 10px 10px #b6b6b678;
+        margin: 50px;
+        padding: 20px;
+        /*estilos del titulo h2 index*/
+        .h2{
+            margin-top: 70px;
+            margin-bottom: 50px;
+            text-align: center;
+            color: #730202;
+            font-size: 3.5rem;
+        }
+        .h3{
+            margin-left: 20px;
+            margin-bottom: 20px;
+            color: #730202;
+            font-size: 2rem;
+        }
+        /*estilo de poster index*/
+        .posterH2{
+            width: 600px;
+            height: 400px;
+            margin-top: 70px;
+            margin-left: 380px;
+            margin-bottom: 90px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 7px #b6b6b678;
+        }
+        /*estilos de los parrafos que necesitan espacio entre ellos*/
+        .parrafoInfo{
+            font-family: "Montserrat", sans-serif;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin: 15px 15px;
+        }
+        .listaUlLocacion{
+            padding-top: 20px;
+            padding-left: 40px;
+            padding-bottom: 20px;
+        }
+        .imgLugares{
+            margin: 30px;
+            display: flex;
+            margin-bottom: 70px;
+            .imgLugar1{
+                margin: 5px;
+                width: 500px;
+                height: 400px;
+                border-radius: 20px;
+                box-shadow: 2px 2px 7px #b6b6b678;
+            }
+            .imgLugar2{
+                margin: 5px;
+                width: 400px;
+                height: 400px;
+                border-radius: 20px;
+                box-shadow: 5px 5px 5px #b6b6b678;
+            }
+        }
+        .divCreadores{
+            padding-bottom: 50px;
+            .listaUlcreadores{
+                padding-top: 20px;
+                padding-left: 40px;
+            }
+        }
+    }     
+}
