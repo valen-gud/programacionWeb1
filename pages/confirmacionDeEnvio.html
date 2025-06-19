@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contacto</title>
+        <title>CONFIRMACIÓN DE ENVÍO - Emily in paris</title>
         <link rel="shortcut icon" href="../favicon.ico.jpg">
         <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Trykker&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/estilos_generales.css">
-        <link rel="stylesheet" href="../css/main_contacto.css">
+        <link rel="stylesheet" href="../css/main_error.css">
     </head>
     <body>
         <header>
@@ -27,40 +27,20 @@
                         <li class="listaNavli"><a class="listaNavA" href="../pages/elencoYpersonajes.html">Elenco y personajes</a></li>
                         <li class="listaNavli"><a class="listaNavA" href="../pages/temporadasYepisodios.html">Temporadas y episodios</a></li>
                         <li class="listaNavli"><a class="listaNavA" href="../pages/eventosYcuriosidades.html">Eventos y curiosidades</a></li>
-                        <li class="listaNavli"><a class="listaNavA" href="#">Contacto</a></li>
+                        <li class="listaNavli"><a class="listaNavA" href="../pages/contacto.html">Contacto</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
-        <main class="mainContacto">
-            <section class="seccionTituloH1">
-                <h1 class="h1">¡Bonjour! Escribinos</h1>
+        <main class="mainError">
+            <section class="seccionError">
+                <h1 class="h1">¡Gracias por escribirnos, mon amour!</h1>
+                <h2 class="h2"><span class="spanParrafo">Tu mensaje ya está en manos de nuestro equipo...</span></h2>
+                <img class="imgConfirmacion"  src="../assets/img/emily1.jpg" alt="emilyEnEscritorio" title="emilyEnEscritorio">
             </section>
-            <section class="seccionContacto">
-                <div>
-                    <h2 class="h2">¡Dejanos tu mensaje y seguí conectada con el mundo de Emily!</h2>
-                    <form class="formularioContacto" action="./confirmacionDeEnvio.html" method="get">
-                        <label class="etiqueta" for="nombre">Nombre</label><br>
-                        <input class="relleno" type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido" required><br>
-                        <label class="etiqueta" for="email">Email</label><br>
-                        <input class="relleno" type="email" placeholder="ejemplo@ejemplo.com" required id="email" name="email"><br>
-                        <label class="etiqueta" for="telefono">Teléfono</label><br>
-                        <input class="relleno" type="tel" id="telefono" name="telefono" required><br>
-                        <label class="etiqueta" for="mensaje">Mensaje</label><br>
-                        <textarea class="relleno" id="mensaje" name="mensaje" placeholder="Bonjour..." required></textarea><br> 
-                        <div>
-                            <input class="boton" type="reset" value="Borrar">
-                        </div>
-                        <div>
-                            <input class="boton" type="submit" value="Enviar">
-                        </div>
-                    </form>
-                </div>
-            </section>                    
         </main>
-
         <footer>
             <p class="parrafoFooter"> Página creada por: Valentina Gudiño.</p>
-        </footer>
+        </footer>        
     </body>
 </html>
