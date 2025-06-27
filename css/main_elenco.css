@@ -29,8 +29,7 @@
         }
          /*primer parrafo*/
         .parrafoPersonajes1{
-            text-align: center;
-            
+            text-align: center;            
         }
 
         .divPersonajes{
@@ -53,6 +52,7 @@
                     padding-top: 100px;
                     padding-left: 50px;
                     padding-right: 50px;
+                    font-size: 1.4rem;
                 }
                 /*estilo de img emily*/
                 .imgPersonajes{
